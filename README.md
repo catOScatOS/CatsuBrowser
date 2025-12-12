@@ -39,3 +39,4 @@ It features multi-tab browsing, history management, and a sleek Aero-inspired in
 Developed by catOS
 Made with ❤️ and curiosity,
 ENJOY SOFTWARE AND THANKS FOR USE IT!  
+<img width="2559" height="1354" alt="Capture d&#39;écran 2025-12-12 214648" src="https://github.com/user-attachments/assets/f6287295-cd09-4ff1-b6c4-89bab4992a91" />
