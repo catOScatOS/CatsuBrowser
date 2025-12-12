@@ -1,0 +1,12 @@
+﻿<Application x:Class="CatsuBrowser.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Thème clair par défaut -->
+        <SolidColorBrush x:Key="WindowBackground" Color="#FFFFFFFF"/>
+        <SolidColorBrush x:Key="ControlBackground" Color="#FFF5F5F5"/>
+        <SolidColorBrush x:Key="ControlForeground" Color="#FF1E1E1E"/>
+        <SolidColorBrush x:Key="AccentBrush" Color="#FF0078D4"/>
+    </Application.Resources>
+</Application>
