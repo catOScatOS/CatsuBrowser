@@ -1,6 +1,6 @@
 # CatsuBrowser
 
-CatsuBrowser is a lightweight web browser built with WPF and WebView2, designed to be simple, modern, and customizable.  
+CatsuBrowser is a lightweight web browser built with WPF and WebView2 in C#, designed to be simple, modern, and customizable.  
 It features multi-tab browsing, history management, and a sleek Aero-inspired interface.
 
 ---
@@ -33,6 +33,7 @@ It features multi-tab browsing, history management, and a sleek Aero-inspired in
 - .NET Framework 4.7.2  
 - 30 MB of avalable space minimum  
 - Microsoft Edge WebView2 Runtime
+- Visual Studio 2019 (for source code)
 
 ---
 Developed by catOS
