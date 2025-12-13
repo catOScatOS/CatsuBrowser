@@ -3,7 +3,7 @@
   --bg-alt: #131820;
   --text: #e7ecf3;
   --muted: #a8b2c1;
-  --primary: #4da3ff;
+  --primary: #96FF96;
   --card: #1a202b;
   --border: #2a3340;
   --green: #67d28b;
@@ -42,9 +42,9 @@ body {
   text-decoration: none; font-weight: 600; border: 1px solid var(--border);
 }
 .btn.primary { background: var(--primary); color: #061426; border-color: transparent; }
-.btn.primary:hover { background: #3a92f1; }
+.btn.primary:hover { background: #AA70FF; }
 .btn.secondary { background: transparent; color: var(--text); }
-.btn.secondary:hover { border-color: #3a92f1; }
+.btn.secondary:hover { border-color: #8F2929; }
 
 .hero-visual { display: flex; justify-content: center; }
 .window-mock {
@@ -58,7 +58,7 @@ body {
 .window-body { padding: 10px; }
 .tabbar { display: flex; gap: 8px; margin-bottom: 10px; }
 .tab { padding: 6px 10px; border-radius: 6px; background: #151a22; color: var(--muted); font-size: 13px; }
-.tab.active { background: #0f1520; color: var(--text); }
+.tab.active { background: #18301C; color: var(--text); }
 .tab.add { background: transparent; border: 1px dashed var(--border); }
 .toolbar { display: grid; grid-template-columns: auto auto auto 1fr; gap: 8px; margin-bottom: 10px; }
 .btn-icon { width: 36px; height: 32px; display: grid; place-items: center; border: 1px solid var(--border); border-radius: 6px; color: var(--muted); }
