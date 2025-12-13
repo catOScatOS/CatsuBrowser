@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CatsuBrowser — Lightweight Browser for Windows</title>
+  <meta name="description" content="CatsuBrowser is a lightweight 32-bit browser for Windows, built in C# (.NET Framework 4.7.2) with WebView2." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">CatsuBrowser</a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#performance">Performance</a>
+        <a href="#download">Download</a>
+        <a href="#requirements">Requirements</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contribute">Contribute</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Lightweight, fast, and Windows 7 compatible</h1>
+        <p>
+          Developed in C# (.NET Framework 4.7.2) with WPF and WebView2, CatsuBrowser offers a minimalist experience
+          with extremely low memory usage, perfect for older or modest PCs.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#download">Download</a>
+          <a class="btn secondary" href="https://github.com/yourusername/CatsuBrowser" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="hero-meta">
+          <span>100% C# (WPF)</span>
+          <span>32-bit (x86)</span>
+          <span>.NET Framework 4.7.2</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="window-mock" aria-hidden="true">
+          <div class="window-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="title">CatsuBrowser</span>
+          </div>
+          <div class="window-body">
+            <div class="tabbar"><span class="tab active">New Tab</span><span class="tab">Example</span><span class="tab add">+</span></div>
+            <div class="toolbar">
+              <span class="btn-icon">⟵</span>
+              <span class="btn-icon">⟶</span>
+              <span class="btn-icon">⟳</span>
+              <input type="text" class="address" placeholder="Search or enter URL" />
+            </div>
+            <div class="content">
+              <div class="placeholder">WebView2 rendering here</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="cards">
+          <div class="card"><h3>Multi-tabs</h3><p>Open, close, and manage multiple tabs independently.</p></div>
+          <div class="card"><h3>Navigation controls</h3><p>Back, Forward, Refresh, and Home buttons for smooth browsing.</p></div>
+          <div class="card"><h3>Smart address bar</h3><p>Enter a URL or search term, automatically using Google search.</p></div>
+          <div class="card"><h3>Per-tab history</h3><p>View, reopen, or clear history entries per tab.</p></div>
+          <div class="card"><h3>Modern interface</h3><p>Dark theme inspired by Fluent Design, clean and responsive.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="performance" class="section alt">
+      <div class="container">
+        <h2>Performance</h2>
+        <div class="perf-grid">
+          <div class="perf-card"><div class="stat">~1 GB</div><div class="label">Chrome with Copilot open</div></div>
+          <div class="perf-card highlight"><div class="stat">~30 MB</div><div class="label">CatsuBrowser 32-bit with Copilot open</div></div>
+        </div>
+        <p class="note">Measured in Task Manager. A 32-bit minimalist design drastically reduces memory footprint.</p>
+      </div>
+    </section>
+
+    <section id="download" class="section">
+      <div class="container">
+        <h2>Download</h2>
+        <p>Install the latest stable version via GitHub Releases. Choose the installer that fits your system.</p>
+        <div class="download-actions">
+          <a class="btn primary" id="latest-release" href="https://github.com/yourusername/CatsuBrowser/releases/latest" target="_blank" rel="noopener">Latest release</a>
+          <a class="btn secondary" href="https://github.com/yourusername/CatsuBrowser/releases" target="_blank" rel="noopener">All versions</a>
+        </div>
+        <ul class="download-notes">
+          <li><strong>Light installer:</strong> EXE/MSI without WebView2 (Windows 10/11).</li>
+          <li><strong>Full installer:</strong> includes WebView2 (~230 MB) for Windows 7/8.</li>
+          <li><strong>Architecture:</strong> 32-bit (x86).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="requirements" class="section alt">
+      <div class="container">
+        <h2>Requirements</h2>
+        <ul class="reqs">
+          <li><strong>Windows:</strong> Windows 7 or later.</li>
+          <li><strong>.NET:</strong> .NET Framework 4.7.2.</li>
+          <li><strong>Runtime:</strong> Microsoft Edge WebView2 installed (or use full installer).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section">
+      <div class="container">
+        <h2>Roadmap</h2>
+        <ul class="roadmap">
+          <li><strong>Bookmarks:</strong> Save and organize favorite sites.</li>
+          <li><strong>Settings:</strong> Homepage, theme, search engine options.</li>
+          <li><strong>Downloads:</strong> Built-in download manager.</li>
+          <li><strong>Updates:</strong> Automatic release check and notifications.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="faq" class="section alt">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="faq">
+          <details><summary>Does CatsuBrowser work without WebView2?</summary><p>No. On Windows 7/8, use the full installer or install WebView2 manually.</p></details>
+          <details><summary>Is the project 100% C#?</summary><p>Yes, the browser is fully developed in C# (WPF). This site is just a static HTML/CSS/JS showcase.</p></details>
+          <details><summary>Can I contribute?</summary><p>Yes, open issues or pull requests on GitHub.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contribute" class="section">
+      <div class="container">
+        <h2>Contribute</h2>
+        <p>The source code is open for contributions. Report bugs, suggest improvements, or submit pull requests.</p>
+        <div class="contrib-actions">
+          <a class="btn primary" href="https://github.com/yourusername/CatsuBrowser" target="_blank" rel="noopener">GitHub Repository</a>
+          <a class="btn secondary" href="https://github.com/yourusername/CatsuBrowser/issues" target="_blank" rel="noopener">Issues</a>
+        </div>
+        <p class="license">MIT License.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>CatsuBrowser © 2025</span>
+      <span><a href="https://github.com/yourusername/CatsuBrowser" target="_blank" rel="noopener">GitHub</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
