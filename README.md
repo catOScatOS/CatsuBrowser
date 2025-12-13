@@ -31,7 +31,7 @@ It features multi-tab browsing, history management, and a sleek Aero-inspired in
 
 - Windows 7 32 Bits or later  
 - .NET Framework 4.7.2  
-- 30 MB of avalable space minimum  
+- 300 MB of avalable space  
 - Microsoft Edge WebView2 Runtime (integrated) 
 - Visual Studio 2019 (for source code) 
 
