@@ -5,7 +5,6 @@
 ![Downloads](https://img.shields.io/github/downloads/catOScatOS/CatsuBrowser/total)
 ![Stars](https://img.shields.io/github/stars/catOScatOS/CatsuBrowser?style=social)
 ![Issues](https://img.shields.io/github/issues/catOScatOS/CatsuBrowser)
-[![Star](https://img.shields.io/github/stars/catOScatOS/CatsuBrowser?style=social)](https://github.com/catOScatOS/CatsuBrowser/stargazers)
 
 
 CatsuBrowser is a lightweight web browser built with WPF and WebView2 in C#, designed to be simple, modern, and customizable.  
