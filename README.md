@@ -8,7 +8,7 @@
 
 
 CatsuBrowser is a lightweight web browser built with WPF and WebView2 in C#, designed to be simple, modern, and customizable.  
-It features multi-tab browsing, history management, and a sleek Aero-inspired interface.
+It features multi-tab browsing, history management.
 
 ---
 
